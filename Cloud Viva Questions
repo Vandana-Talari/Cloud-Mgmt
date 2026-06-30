@@ -1,0 +1,219 @@
+Since you prefer **one-line, concise answers**, here are the most likely viva questions with one-line answers.
+
+# Practical 1 – SCVMM 2019
+
+**Q. What is SCVMM?**
+A. SCVMM is Microsoft software used to manage virtual machines, hosts, and private clouds.
+
+**Q. Full form of SCVMM?**
+A. System Center Virtual Machine Manager.
+
+**Q. What is a cloud in SCVMM?**
+A. A logical collection of virtualized resources for users.
+
+**Q. What is a host?**
+A. A physical server running Hyper-V.
+
+**Q. What is a host group?**
+A. A logical grouping of Hyper-V hosts.
+
+**Q. What is a library server?**
+A. It stores VM templates, ISOs, and VHDs.
+
+**Q. What is a VM template?**
+A. A predefined configuration used to create VMs.
+
+**Q. What is a guarded host?**
+A. A secure Hyper-V host that runs shielded VMs.
+
+**Q. What is Host Guardian Service (HGS)?**
+A. It verifies trusted hosts before starting shielded VMs.
+
+**Q. What is a shielded VM?**
+A. A VM protected against unauthorized access.
+
+---
+
+# Practical 2 – SDN Infrastructure & S2D
+
+**Q. What is SDN?**
+A. Software Defined Networking separates the control plane from the data plane.
+
+**Q. Advantage of SDN?**
+A. Centralized and programmable network management.
+
+**Q. What is Network Controller?**
+A. The central component that manages SDN.
+
+**Q. What is S2D?**
+A. Storage Spaces Direct combines local disks into shared storage.
+
+**Q. Benefit of S2D?**
+A. High availability and scalable storage.
+
+**Q. What is Failover Clustering?**
+A. It provides continuous service during server failures.
+
+---
+
+# Practical 3 – Service Manager
+
+**Q. What is Service Manager?**
+A. It is an IT service management tool.
+
+**Q. Purpose of Service Manager?**
+A. To manage incidents, problems, and change requests.
+
+**Q. Why SQL Server is used?**
+A. To store Service Manager data.
+
+**Q. What is SSRS?**
+A. SQL Server Reporting Services generates reports.
+
+**Q. What is a Data Warehouse?**
+A. A database used for reporting and analysis.
+
+---
+
+# Practical 4 & 5 – Orchestrator
+
+**Q. What is Orchestrator?**
+A. It automates IT tasks using runbooks.
+
+**Q. What is a runbook?**
+A. A workflow that automates tasks.
+
+**Q. What is a monitor runbook?**
+A. It waits for an event and starts automatically.
+
+**Q. What is an activity?**
+A. A single step inside a runbook.
+
+**Q. What is an Integration Pack?**
+A. A collection of activities for integrating products.
+
+**Q. Why backup Orchestrator?**
+A. To recover data after failures.
+
+**Q. What is runbook throttling?**
+A. It limits the number of simultaneous runbooks.
+
+**Q. What is benchmarking?**
+A. Measuring system performance.
+
+**Q. Why recover the database?**
+A. To restore lost Orchestrator data.
+
+**Q. What is PowerPivot?**
+A. An Excel tool for data analysis.
+
+---
+
+# Practical 6 & 7 – DPM
+
+**Q. Full form of DPM?**
+A. Data Protection Manager.
+
+**Q. Purpose of DPM?**
+A. Backup and recovery of data.
+
+**Q. What is a protection agent?**
+A. Software installed on protected computers.
+
+**Q. What is a protection group?**
+A. A collection of data sources backed up together.
+
+**Q. Why configure firewall?**
+A. To allow DPM communication.
+
+**Q. What is Hyper-V backup?**
+A. Backup of virtual machines.
+
+**Q. Why backup SQL Server?**
+A. To protect databases.
+
+**Q. What is Bare Metal Recovery?**
+A. Restoring an entire server after failure.
+
+**Q. What is System State Backup?**
+A. Backup of critical Windows system files.
+
+**Q. Can DPM backup VMware?**
+A. Yes.
+
+**Q. Can DPM restore VMM servers?**
+A. Yes.
+
+---
+
+# Practical 8 – Configuration Manager
+
+**Q. What is Configuration Manager?**
+A. It manages devices, applications, and updates.
+
+**Q. What is MECM?**
+A. Microsoft Endpoint Configuration Manager.
+
+**Q. What is a site?**
+A. A management unit in Configuration Manager.
+
+**Q. What is a Primary Site?**
+A. It manages clients directly.
+
+**Q. What is a Secondary Site?**
+A. It extends management to remote locations.
+
+**Q. What is a Central Administration Site (CAS)?**
+A. It manages multiple primary sites.
+
+**Q. What is client deployment?**
+A. Installing the Configuration Manager client on devices.
+
+**Q. What is software deployment?**
+A. Distributing applications to client devices.
+
+---
+
+# Frequently Asked Viva Questions
+
+**Q. What is virtualization?**
+A. Running multiple virtual machines on one physical server.
+
+**Q. What is Hyper-V?**
+A. Microsoft's hypervisor for creating virtual machines.
+
+**Q. What is a Hypervisor?**
+A. Software that creates and manages virtual machines.
+
+**Q. Difference between Physical Machine and Virtual Machine?**
+A. A physical machine is hardware; a virtual machine is software-based.
+
+**Q. What is cloud computing?**
+A. Delivering computing resources over the internet.
+
+**Q. Types of cloud?**
+A. Public, Private, and Hybrid.
+
+**Q. What is automation?**
+A. Performing tasks automatically without manual intervention.
+
+**Q. What is disaster recovery?**
+A. Restoring systems after failures.
+
+**Q. Why use Microsoft System Center?**
+A. To manage, monitor, automate, and protect IT infrastructure.
+
+---
+
+### Last-minute viva tip
+
+If the examiner asks **"What did you do in this practical?"**, answer in one sentence:
+
+* **SCVMM:** "I created and managed virtual machines and private cloud resources."
+* **SDN:** "I deployed and managed software-defined networking and Storage Spaces Direct."
+* **Service Manager:** "I installed Service Manager and configured SQL reporting."
+* **Orchestrator:** "I automated administrative tasks using runbooks."
+* **DPM:** "I configured backup and recovery for servers and virtual machines."
+* **Configuration Manager:** "I managed devices, applications, and site hierarchy."
+
+These cover around **90% of the questions** commonly asked in a Cloud Management practical viva. Best of luck for your practical tomorrow!
